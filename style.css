@@ -1,0 +1,89 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #444;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration:wavy;
+}
+
+.hero {
+    background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDQ0NDw0PDw0PDQ0NDQ8PDw8PDw8PFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKy0rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAHRABAQEAAgIDAAAAAAAAAAAAABEBIfBhkQIxof/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A7FFwi4AosBDFUEiiggsARVAQUBBQEFAQUBCKAkIoCQigJCLAGYRpAZg0gMxGtQGYLABQwFVFAVFAFAAABQEFAAAAABQEFAQUBBQEFQBFARFQE1NXUBEUAUUAFAVFAAAUAAAAAAAFAAAAAAAAABFAQAEABNZaZ0EgAKqKCgoAACoAoigAAAAAAoigAAAAAAAAIoCAAgAJqKzoCKgKqNYAoAAoIoAAAAAAAAAKigAAAAAAAAIACKgAICIuoCBQGsXGWsBQAUAAAAAAAAAAAAAFEAUQBRAFEAAQFQAQAERUBBAGmmVwFxUUFAAAAAAAAAAAAAAAAAAAAAAQABABFQERU0E3e8hveQGsVlrAVUMBVRQAAAAAAAAAAAAAAAAAQAAAAEAAQARF1NBL3gAFxUxQXFRQURQURQAAAAAAAAAQFBAVAAAABAAAEABABA1ATcEUFxUUFVFBRFBRAFVAFEAUQBRAAAAEBRAFQABAAEBaggKggCaJoJ79h36AaVAGlYq0GlYq0GqVmlBsZpQaGaUGhmrQUSpQaKzQGkSlBRKUFSpSgtGaUGqiVKDVTWaUFom6l8/oLqbqVKBc7BAG6UAKUAKtACrQApQAq0AKUAKUAKUAKlUBKVQEpQBKlUBKUASl8gDNKAJUoA38s+ObxuwBR//Z);
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.gallery-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+.p{
+    text-decoration: solid;
+}
+
